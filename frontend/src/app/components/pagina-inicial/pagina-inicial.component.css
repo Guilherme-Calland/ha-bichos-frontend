@@ -1,0 +1,8 @@
+.imagem_tela_inicial{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    width: 10px;
+    position: relative;
+    left: -16px;
+}

@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <title>HaBichos</title>
+</head>
+<div class = "barra_de_tarefas_tudo">
+  <ul>
+    <li>
+      <div class = "itens_esquerda">
+        <div class = "barra_de_tarefas">
+          <ul>
+            <li (click) = "goToPage('quemsomos')">Quem Somos</li>
+            <li (click) = "goToPage('listadeabrigos')">Lista de abrigos</li>
+            <li (click) = "goToPage('contato')">Contato</li>
+          </ul>
+        </div>
+      </div>
+      <div class = "hb_logo">
+        <img src = "assets/imagens/ha.bichos.png">        
+      </div>
+    </li>
+    <li>
+      <div class = "itens_direita">
+        <div class = "barra_de_tarefas">
+          <ul>
+            <li (click) = "goToPage('faq')">FAQ</li>
+            <li (click) = "goToPage('login')">Log in</li>
+          </ul>
+        </div>
+      </div>
+      <div class = "faca_parte_btn" (click) = "goToPage('cadastro')">
+        <div class = "faca_parte_btn_inner">
+          Faça Parte
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+    
+
+  
+
+<router-outlet></router-outlet>
+
+</html>

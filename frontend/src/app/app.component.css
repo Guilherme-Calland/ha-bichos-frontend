@@ -1,0 +1,58 @@
+.barra_de_tarefas{
+    color: #5F9998;
+}
+
+.barra_de_tarefas ul{
+    display: inline-flex;
+
+}
+
+.barra_de_tarefas ul li{
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.barra_de_tarefas_tudo ul li{
+    list-style: none;
+    display: inline-flex;
+}
+
+.faca_parte_btn{
+    border-radius: 5px;
+    background-color: #5F9998;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 20px;
+    cursor: pointer;
+    position: fixed;
+    right: 2%;
+    top: 20px;
+}
+
+.faca_parte_btn_inner{
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.itens_esquerda{
+    position: fixed;
+    left: 0%;
+    top: 30px;
+}
+
+.hb_logo{
+    position: fixed;
+    left: 42%;    
+    top: 14px
+}
+
+.itens_direita{
+    position: fixed;
+    right: 12%;
+    top: 30px;
+}
