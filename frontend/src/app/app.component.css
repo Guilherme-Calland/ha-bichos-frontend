@@ -1,10 +1,12 @@
+
+
 .barra_de_tarefas{
     color: #5F9998;
+    position: relative;
 }
 
 .barra_de_tarefas ul{
     display: inline-flex;
-
 }
 
 .barra_de_tarefas ul li{
@@ -15,6 +17,14 @@
     margin-right: 20px;
 }
 
+.barra_de_tarefas_tudo{
+    position: fixed;
+    background-color: white;   
+    width: 105%; 
+    left: -0.5%;
+    height: 13%;
+    top: -1%;
+}
 
 
 .barra_de_tarefas_tudo ul li{
@@ -33,7 +43,7 @@
     cursor: pointer;
     position: fixed;
     right: 2%;
-    top: 20px;
+    top: 4%;
 }
 
 .faca_parte_btn_inner{
@@ -44,17 +54,17 @@
 .itens_esquerda{
     position: fixed;
     left: 0%;
-    top: 30px;
+    top: 5%;
 }
 
 .hb_logo{
     position: fixed;
     left: 44%;    
-    top: 14px
+    top: 2.5%;
 }
 
 .itens_direita{
     position: fixed;
     right: 12%;
-    top: 30px;
+    top: 5%;
 }

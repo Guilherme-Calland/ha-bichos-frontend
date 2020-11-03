@@ -1,25 +1,35 @@
+
+
+*{
+    margin: 0;
+    z-index: -1;
+}
+
 .imagem_tela_inicial{
     background-repeat: none;
     background-size: cover;
     margin: auto;
+    position: absolute;
+    top: 18%;
+    width: 100%;
+    left: -0.02%;
 }
 
 .imagem_tela_inicial img{
-    width: 105%;
-    position: fixed;
-    left: -1%;
-    top: 25%;
+    width: 100%;
+    
 }
 
 .logo_tela_inicial{
-    position: fixed;
-    top: 80%;
-    width: 100%;
+    position: absolute;
+    top: 140%;
+    width: 99%;
     height: 20%;
 }
 
 .logo_tela_inicial img{
     width: 50%;
-    position: fixed;
+    position: absolute;
     left: 27%;
 }
+
