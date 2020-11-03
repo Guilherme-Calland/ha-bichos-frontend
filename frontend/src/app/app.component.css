@@ -15,6 +15,8 @@
     margin-right: 20px;
 }
 
+
+
 .barra_de_tarefas_tudo ul li{
     list-style: none;
     display: inline-flex;
@@ -47,7 +49,7 @@
 
 .hb_logo{
     position: fixed;
-    left: 42%;    
+    left: 44%;    
     top: 14px
 }
 
