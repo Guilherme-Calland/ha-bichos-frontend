@@ -1,5 +1,39 @@
-.teste{
+.tudo{
+    /* display: grid;
+    place-items: center; */
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.sobre_nos{
+    font-size: 50px;
+    color: #5F9998;
+    font-weight: bold;
     display: grid;
     place-items: center;
-    height: 200px;
+}
+
+.comeco{
+    font-size: 50px;
+    color: #5F9998;
+    font-weight: bold;
+    display: grid;
+    place-items: start;
+}
+
+.meio{
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.fim{
+    margin-top: -530px;
+    margin-right: -8px;
+    display: grid;
+    place-items: end;
+    
 }

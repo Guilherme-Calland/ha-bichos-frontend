@@ -61,6 +61,7 @@
     color: white;
     font-weight: bold;
     font-size: 200%;
+    visibility: hidden;
 }
 
 .mapa img{
@@ -110,4 +111,5 @@
     padding-right: 3%;
     margin-left: 10%;
     margin-top: 2%;
+    cursor: pointer;
 }
