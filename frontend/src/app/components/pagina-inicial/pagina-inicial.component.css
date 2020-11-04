@@ -4,6 +4,8 @@
     margin: 0;
     z-index: -1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    font-size: 100%;
 }
 
 .imagem_tela_inicial{
@@ -35,7 +37,7 @@
 }
 
 .frase_de_impacto{
-    width: 100%;
+    width: 99%;
     position: absolute;
     top: 78%;
     text-align: center;
@@ -61,5 +63,51 @@
     font-size: 200%;
 }
 
+.mapa img{
+    position: absolute;
+    top: 120%;
+    left: 1%;
+    width: 45%;
+    cursor: pointer;
+}
 
+.conheca_os_abrigos_bloco img{
+    position: absolute;
+    top: 118%;
+    width: 48%;
+    right: 0%;
+}
 
+.faca_sua_contribuicao_btn img{
+    position: absolute;
+    top: 165%;
+    right: 14%;
+    cursor: pointer;
+}
+
+.total_de_doacoes{
+    position: absolute;
+    top: 180.5%;
+    left: -0.005%;
+    background-color: #5F9998;
+    width: 95%;
+    height: 50%;
+    padding-left: 5%;
+    padding-top: 3%;
+    color: white;
+    font-weight: bold;
+    font-size: 250%;
+}
+
+.numero{
+    background-color: white;
+    color: #3D3168;
+    width: fit-content;
+    border-radius: 10px;
+    font-size: 500%;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
