@@ -14,7 +14,7 @@
         </div>
     </div>
 
-    <div *ngIf = "!seCadastrando" class = "planilha_de_cadastro">
+    <div *ngIf = "seCadastrando" class = "planilha_de_cadastro">
         <div class = "cabecalho">
             Cadastrar Abrigo
         </div>
@@ -159,7 +159,11 @@
                     </td>
                 </tr>
             </table>
-            
+            <div class = "cadastrar">
+                <div class = "cadastrar_inner">
+                    Confirmar
+                </div>
+            </div>
         </div>
     </div>
 

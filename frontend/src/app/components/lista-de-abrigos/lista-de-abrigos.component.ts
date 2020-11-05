@@ -1,3 +1,4 @@
+import { AbrigoService } from './../../service/abrigo.service';
 import { Abrigo } from '../../../../../common/abrigo';
 import { Component, OnInit } from '@angular/core';
 
@@ -13,14 +14,23 @@ export class ListaDeAbrigosComponent implements OnInit {
   seCadastrando: boolean = false;
   
 
-  constructor() { }
+  constructor(private abrigoService: AbrigoService) { }
 
   ngOnInit(): void {
     this.abrigo.nome = "abriginho";
   }
 
-  mudarNome(): void{
-    this.abrigo.nome = "testando";
+  criarAbrigo(a: Abrigo): void {
+    this.abrigoService.create(a).subscribe(
+      ar => {
+        if(ar) {
+          
+        } else {
+          
+        }
+      },
+      msg => { alert(msg.message); }
+    )
   }
 
 }
