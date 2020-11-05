@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListaDeAbrigosComponent implements OnInit {
 
+  qtdDeAbrigos: number = 0;
+  seCadastrando: boolean = false;
+  
+
   constructor() { }
 
   ngOnInit(): void {

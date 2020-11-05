@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {Title} from "@angular/platform-browser";
 import { Router } from '@angular/router'
+import { $ } from 'protractor';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,7 @@ import { Router } from '@angular/router'
 })
 export class AppComponent {
   title = 'ha-bichos';
+
   constructor(private titleService:Title, private router: Router) {
     this.titleService.setTitle("Ha Bichos");
   }

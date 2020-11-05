@@ -1,1 +1,76 @@
-<p>lista-de-abrigos works!</p>
+<div class = "tudo">
+    <div class = "qtd_de_abrigos">
+         Abrigos Cadastrados: {{ qtdDeAbrigos }}
+    </div>
+
+    <div class = "voce_tem_abrigo">
+        Voce é dono ou responsável por um abrigo de animais?<br>
+        Se Cadastre!
+    </div>
+
+    <div class = "cadastrar">
+        <div class = cadastrar_inner (click) = "seCadastrando = true">
+            Cadastrar
+        </div>
+    </div>
+
+    <div *ngIf = "!seCadastrando" class = "planilha_de_cadastro">
+        <div class = "cabecalho">
+            Cadastrar Abrigo
+        </div>
+        <div class = "hb_logo">
+            <img src = "assets/imagens/hb_logo.png">
+        </div>
+
+        <div class = "itens_cadastro">
+
+            <table>
+                <tr>
+                    <td>
+                        <div class = "item_cadastro_esq">
+                            Nome
+                        </div>
+                    </td>
+                    <td>
+                        <div class = "item_cadastro_dir">
+                            algumaCoisa
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class = "item_cadastro_esq">
+                            Nomeaaaaaaaaaaaaaa
+                        </div>
+                    </td>
+                    <td>
+                        <div class = "item_cadastro_dir">
+                            algumaCoisaaaaaaaaaaaaaaaa
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class = "item_cadastro_esq">
+                            Nomeaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                        </div>
+                    </td>
+                    <td>
+                        <div class = "item_cadastro_dir">
+                            algumaCoisaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+
+
+    
+</div>
+
+
+

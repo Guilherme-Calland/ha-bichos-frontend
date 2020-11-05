@@ -1,0 +1,70 @@
+.tudo{
+    margin-top: 200px;
+    list-style: none;
+}
+
+.qtd_de_abrigos{
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+    color: #bbd4d4;
+}
+
+.voce_tem_abrigo{
+    margin-top: 30px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: #3D3168;
+    font-size: 48px;
+}
+
+.cadastrar{
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.cadastrar_inner{
+    background-color: #5F9998;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.planilha_de_cadastro ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.cabecalho{
+    margin-top: 85px;
+    margin-left: 65px;
+    color: #5F9998;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.hb_logo{
+    margin-top: 60px;
+    display: grid;
+    place-items: center;
+}
+
+.itens_cadastro{
+    display: grid;
+    place-items: center;
+}
+
+.item_cadastro_direita{
+    
+}
+

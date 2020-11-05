@@ -53,7 +53,7 @@
     font-size: 17px;
 }
 
-.hb_logo img{
+.hb_logo{
     position: absolute;
     left: 40%;
     width: 20%;
@@ -66,7 +66,6 @@
     left: 0%;
     top: 30%;
 }
-
 
 .itens_direita{
     position: absolute;

@@ -1,0 +1,31 @@
+
+.tudo{
+    margin-top: 110px;
+    margin-left: 65px;
+}
+
+.cabecalho{
+    color: #BBD4D4;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+.pergunta{
+    background-color: #BBD4D4;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    word-spacing: 5px;
+    letter-spacing: 0.5px;
+}
+
+.resposta{
+    margin-left: 12px;
+    font-size: 18px;
+    word-spacing: 5px;
+    letter-spacing: 0.5px;
+}
