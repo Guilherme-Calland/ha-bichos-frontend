@@ -89,15 +89,17 @@
 .total_de_doacoes{
     position: absolute;
     top: 180.5%;
-    left: -0.005%;
     background-color: #5F9998;
     width: 95%;
     height: 50%;
     padding-left: 5%;
     padding-top: 3%;
+
     color: white;
     font-weight: bold;
     font-size: 250%;
+    display: grid;
+    place-items: center;
 }
 
 .numero{
@@ -109,7 +111,6 @@
     text-align: center;
     padding-left: 3%;
     padding-right: 3%;
-    margin-left: 10%;
     margin-top: 2%;
     cursor: pointer;
 }

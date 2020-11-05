@@ -10,7 +10,6 @@
         </div>
 
         <div class = "itens_cadastro">
-
             <table>
                 <tr>
                     <td>
@@ -62,7 +61,7 @@
                     <td>
                         <div class = "item_cadastro_dir">
                             <div class = "descricao">
-                                <input [(ngModel)] = "abrigo.descricao">
+                                <textarea [(ngModel)] = "abrigo.descricao"></textarea>
                             </div>
                         </div>
                     </td>
@@ -157,21 +156,23 @@
 
     </div>
 
-
-    <div class = "qtd_de_abrigos">
-        Abrigos Cadastrados: {{ qtdDeAbrigos }}
-   </div>
-
-   <div class = "voce_tem_abrigo">
-       Voce é dono ou responsável por um abrigo de animais?<br>
-       Se Cadastre!
-   </div>
-
-   <div class = "cadastrar">
-       <div class = cadastrar_inner (click) = "seCadastrando = true">
-           Cadastrar
+    <div *ngIf = "!seCadastrando" class = "cadastre_seu_abrigo">
+        <div class = "qtd_de_abrigos">
+            Abrigos Cadastrados: {{ qtdDeAbrigos }}
        </div>
-   </div>
+    
+       <div class = "voce_tem_abrigo">
+           Voce é dono ou responsável por um abrigo de animais?<br>
+           Se Cadastre!
+       </div>
+    
+       <div class = "cadastrar">
+           <div class = cadastrar_inner (click) = "seCadastrando = true">
+               Cadastrar
+           </div>
+       </div>
+    </div>
+    
 
    
     

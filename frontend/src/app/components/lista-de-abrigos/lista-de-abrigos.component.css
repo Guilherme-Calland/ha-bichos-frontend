@@ -1,5 +1,4 @@
 .tudo{
-    margin-top: 200px;
     list-style: none;
 }
 
@@ -79,9 +78,14 @@
     font-size: 15px;
 }
 
-.descricao input{
-    width: 350px;
-    height: 100px;
+.item_cadastro_dir textarea{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-left: 15px;
+    font-size: 15px;
+    height: 80px;
+    width: 200px;
 }
 
 .separador{
@@ -99,4 +103,8 @@
     border-radius: 10px;
     font-size: 30px;
     margin-left: 30px;
+}
+
+.cadastre_seu_abrigo{
+    margin-top: 200px;
 }
