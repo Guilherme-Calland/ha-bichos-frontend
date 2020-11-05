@@ -1,18 +1,5 @@
 <div class = "tudo">
-    <div class = "qtd_de_abrigos">
-         Abrigos Cadastrados: {{ qtdDeAbrigos }}
-    </div>
-
-    <div class = "voce_tem_abrigo">
-        Voce é dono ou responsável por um abrigo de animais?<br>
-        Se Cadastre!
-    </div>
-
-    <div class = "cadastrar">
-        <div class = cadastrar_inner (click) = "seCadastrando = true">
-            Cadastrar
-        </div>
-    </div>
+    
 
     <div *ngIf = "seCadastrando" class = "planilha_de_cadastro">
         <div class = "cabecalho">
@@ -160,14 +147,33 @@
                 </tr>
             </table>
             <div class = "cadastrar">
-                <div class = "cadastrar_inner">
+                <div class = "cadastrar_inner_2">
                     Confirmar
                 </div>
             </div>
         </div>
+
+    <div class = "separador"></div>
+
     </div>
 
 
+    <div class = "qtd_de_abrigos">
+        Abrigos Cadastrados: {{ qtdDeAbrigos }}
+   </div>
+
+   <div class = "voce_tem_abrigo">
+       Voce é dono ou responsável por um abrigo de animais?<br>
+       Se Cadastre!
+   </div>
+
+   <div class = "cadastrar">
+       <div class = cadastrar_inner (click) = "seCadastrando = true">
+           Cadastrar
+       </div>
+   </div>
+
+   
     
 </div>
 

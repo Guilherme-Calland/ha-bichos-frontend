@@ -7,18 +7,14 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './lista-de-abrigos.component.html',
   styleUrls: ['./lista-de-abrigos.component.css']
 })
-export class ListaDeAbrigosComponent implements OnInit {
+export class ListaDeAbrigosComponent{
 
   abrigo : Abrigo = new Abrigo();
   qtdDeAbrigos: number = 0;
   seCadastrando: boolean = false;
+  private abrigoService : AbrigoService
   
-
-  constructor(private abrigoService: AbrigoService) { }
-
-  ngOnInit(): void {
-    this.abrigo.nome = "abriginho";
-  }
+  constructor() { }
 
   criarAbrigo(a: Abrigo): void {
     this.abrigoService.create(a).subscribe(

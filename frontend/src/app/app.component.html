@@ -15,7 +15,7 @@
           </ul>
         </div>
       </div>
-      <div class = "hb_logo">
+      <div *ngIf = "mostrarLogo" class = "hb_logo" (click) = "goToPage('')">
         <img src = "assets/imagens/ha.bichos.png">        
       </div>
     </li>

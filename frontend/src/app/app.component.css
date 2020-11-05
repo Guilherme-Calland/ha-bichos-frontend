@@ -58,7 +58,7 @@
     left: 40%;
     width: 20%;
     top: 1%;
-    visibility: hidden;
+    cursor: pointer;
 }
 
 .itens_esquerda{

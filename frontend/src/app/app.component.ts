@@ -10,12 +10,18 @@ import { $ } from 'protractor';
 })
 export class AppComponent {
   title = 'ha-bichos';
+  mostrarLogo : boolean = false
 
   constructor(private titleService:Title, private router: Router) {
     this.titleService.setTitle("Ha Bichos");
   }
 
   goToPage(pageName: string): void {
+    if(pageName == ''){
+      this.mostrarLogo = false
+    } else {
+      this.mostrarLogo = true
+    }
     this.router.navigate([`${pageName}`])
   }
   
