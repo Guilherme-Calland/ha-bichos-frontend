@@ -1,3 +1,4 @@
+import { Abrigo } from '../../../../../common/abrigo';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListaDeAbrigosComponent implements OnInit {
 
+  abrigo : Abrigo = new Abrigo();
   qtdDeAbrigos: number = 0;
   seCadastrando: boolean = false;
   
@@ -14,6 +16,11 @@ export class ListaDeAbrigosComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.abrigo.nome = "abriginho";
+  }
+
+  mudarNome(): void{
+    this.abrigo.nome = "testando";
   }
 
 }
